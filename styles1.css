@@ -85,6 +85,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+ display: block;
 }
 
 .img-fluid {
@@ -355,3 +356,4 @@
                 font-size: 2rem;
             }
         }
+
