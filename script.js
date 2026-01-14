@@ -5,7 +5,7 @@ var projects = [
     academic: "",
          liveLink: "https://hermes107.github.io/Hip-Dysplasia-in-Young-Adults-Final-/",
     images: [
-            "hipweb3.jpg"
+            "images/hipweb3.jpg"
         ],
     challenge: "Create an accessible, informative website that explains complex orthopedic conditions and surgical procedures (Hip Dysplasia, PAO, and FO surgery) in a way that's understandable for patients, families, and those seeking information about treatment options.",
     solution: "Designed a comprehensive healthcare information website with clear navigation, medical illustrations, and patient-centered content. The site features detailed explanations of hip dysplasia, Periacetabular Osteotomy (PAO), and Femoral Osteotomy (FO) procedures, recovery timelines, and helpful resources. Used accessible color schemes, readable typography, and organized information architecture to make complex medical information digestible.",
@@ -227,5 +227,6 @@ document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
         }
     });
 });
+
 
 
