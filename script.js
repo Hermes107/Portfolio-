@@ -5,7 +5,7 @@ var projects = [
     academic: "",
          liveLink: "https://hermes107.github.io/Hip-Dysplasia-in-Young-Adults-Final-/",
     images: [
-            "images/hipweb3.jpg"
+            "hipweb3.jpg"
         ],
     challenge: "Create an accessible, informative website that explains complex orthopedic conditions and surgical procedures (Hip Dysplasia, PAO, and FO surgery) in a way that's understandable for patients, families, and those seeking information about treatment options.",
     solution: "Designed a comprehensive healthcare information website with clear navigation, medical illustrations, and patient-centered content. The site features detailed explanations of hip dysplasia, Periacetabular Osteotomy (PAO), and Femoral Osteotomy (FO) procedures, recovery timelines, and helpful resources. Used accessible color schemes, readable typography, and organized information architecture to make complex medical information digestible.",
@@ -20,10 +20,10 @@ var projects = [
         category: "Social Media Design & Information Design",
         academic: "SMAD 201.1 - Project 3: Exploring a Social Issue",
         images: [
-            "images/tigersl1.jpg",
-            "images/tigersl2.jpg",
-            "images/tigersl3.jpg",
-            "images/mockup.jpg"
+            "tigersl1.jpg",
+            "tigersl2.jpg",
+            "tigersl3.jpg",
+            "mockup.jpg"
         ],
         challenge: "Create an engaging, educational Instagram carousel that raises awareness about endangered Sumatran Tigers while driving actionable engagement and spreading conservation messages to a broad social media audience.",
         solution: "Developed a 12-slide Instagram carousel series with consistent visual branding using botanical elements (leaves and organic shapes) in a limited color palette of teal, beige, and lavender. The design strategy included: opening with a compelling question, educational infographics with data visualization, threat analysis with statistics, and actionable steps with resource links. Each slide was crafted with clear information hierarchy using headlines, bolded text, and paragraphs over bullet points.",
@@ -37,7 +37,7 @@ var projects = [
         category: "Product Design & Illustration",
         academic: "",
         images: [
-            "images/stickers.jpg",
+            "stickers.jpg",
                     ],
         challenge: "Create memorable, engaging characters that make abstract communication concepts tangible for young learners.",
         solution: "Designed five animal mascots (bee, sloth, flower, owl, bunny) each representing a key conversation trait with playful puns and a cohesive pastel brick pattern background.",
@@ -49,7 +49,7 @@ var projects = [
         category: "Experimental Design",
         academic: "",
         images: [
-            "images/chiliresume.png"
+            "chiliresume.png"
         ],
         challenge: "Create an engaging, memorable design piece that demonstrates layout skills and creative thinking while maintaining information hierarchy.",
         solution: "Structured as a professional resume with sections for skills, experience, education, and awards, using warm earth tones and clear typography with personality-driven content.",
@@ -62,11 +62,11 @@ var projects = [
         category: "Game Design & Development",
         academic: "",
         images: [
-            "images/garcade1.png",
-            "images/garcade2.png",
-             "images/garcade3.png",
-             "images/garcade4.png",
-             "images/garcade5.png",
+            "garcade1.png",
+            "garcade2.png",
+             "garcade3.png",
+             "garcade4.png",
+             "garcade5.png",
         ],
         challenge: "Create an engaging game experience with smooth controls and balanced difficulty progression across multiple environments.",
         solution: "Developed using MakeCode Arcade with distinct level themes (stone castle and brick maze), power-ups, life system, and timer mechanics to maintain player engagement.",
@@ -79,11 +79,11 @@ var projects = [
     category: "Fine Art & Physical Media",
     academic: "",
     images: [
-        "images/borderlands1.jpg",
-        "images/borderlands2.jpg",
-        "images/borderlands3.jpg",
-        "images/mural alone.jpg",
-        "images/mural_me.jpg"
+        "borderlands1.jpg",
+        "borderlands2.jpg",
+        "borderlands3.jpg",
+        "mural alone.jpg",
+        "mural_me.jpg"
     ],
     challenge: "Create a diverse collection of physical artworks exploring a variety of subject matter, character design, and mixed media techniques while developing a cohesive artistic style and portfolio presentation.",
     solution: "Developed a body of work featuring almost full sized human subject, acrylic paint, and character studies. Explored various physical mediums including arcylic based paints, oil based paints, sketching, and mixed media techniques. Created artwork that captures the virbancy of the person, atmospheric perspectives, and expressive character designs while maintaining personal artistic voice.",
@@ -98,11 +98,11 @@ var projects = [
     figmaLink: "https://www.figma.com/design/p85L23fNiUVcFX0poRPuso/Low-Fidelity-Prototype--Copy-?m=auto&t=uDpYbmJ7HXpxxKKs-1", // CHANGE THIS to your Figma link
     pdfReport: "documents/MyAbility_Report.pdf", // Your PDF report path
     images: [
-        "images/uicomp.png",
-        "images/task1.png",
-        "images/task2.png",
-        "images/task3.png",
-        "images/task4.png"
+        "uicomp.png",
+        "task1.png",
+        "task2.png",
+        "task3.png",
+        "task4.png"
     ],
     challenge: "Our task is to design an app or website that meets the needs of users, who, in our case, are college students with mobility disabilities. In order to best design a well-thought-out solution, we will need to research students with physical disabilities' frustrations, their values, and their current solutions. This research will help determine the information provided by the app, its design layout, and what features are necessary and appeal to our audience. ",
     solution: "Created a comprehensive Figma prototype for MyAbility, a mobile app featuring accessibility ratings, venue reviews, community contributions, and personalized recommendations. The design prioritizes accessibility with high contrast options, screen reader compatibility, large touch targets, and clear navigation. Developed user flows for key features including venue search, accessibility ratings, community reviews, and personal profile customization.",
@@ -227,6 +227,7 @@ document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
         }
     });
 });
+
 
 
 
