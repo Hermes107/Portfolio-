@@ -2,7 +2,27 @@
             --primary-teal: #0d9488;
             --primary-teal-dark: #0f766e;
             --gradient-bg: linear-gradient(135deg, #fef3c7 0%, #fce7f3 50%, #ccfbf1 100%);
-        }
+         /* Teals - Tertiary palette */
+  --teal-lightest: #E3F5F2;
+  --teal-light: #CDEDE9;
+  --teal-medium: #BEE8E4;
+  --teal-medium-dark: #B5E3DE;
+  --teal-dark: #9CDAD3;
+  --teal-darker: #83D1C8;
+  --teal-darkest: #56BBB0;
+  --teal-very-dark: #359D92;
+   /* Purples - Accent palette */
+  --purple-lightest: #E8DFF3;
+  --purple-light: #E0D5F0;
+  --purple-medium-light: #D6C8ED;
+  --purple-medium: #CBBAE9;
+  --purple-medium-dark: #BFA8E5;
+  --purple-dark: #B295E1;
+  --purple-darker: #906cc9;
+  --purple-darkest: #6b43aa;
+  --purple-very-dark: #4F2E7F;
+  
+}
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
@@ -190,12 +210,17 @@
         .project-2 { background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%); }
         .project-3 { background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 50%, #d9f99d 100%); }
         .project-4 { background: linear-gradient(135deg, #fef3c7 0%, #d6d3d1 100%); }
+        .project-5 { background: linear-gradient(135deg, #dbeafe 0%, #e0e7ff 50%, #f3e8ff 100%);}
 
         .project-category {
             font-size: 0.875rem;
             color: var(--primary-teal);
             font-weight: 600;
         }
+
+.project-5 .project-image {
+    object-position: center;
+}
 
         .badge {
             border-radius: 50px;
@@ -242,6 +267,49 @@
             border-radius: 1rem;
             padding: 3rem;
         }
+        .action-btn {
+            padding: 0.75rem 1.5rem;
+            font-weight: 600;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .action-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+                .btn-figma {
+           background-color: var(--purple-darkest);
+            border: none;
+            color: white;
+        }
+
+        .btn-figma:hover {
+          background-color: var(--purple-very-dark);
+            color: white;
+        }
+
+        /* Report/PDF Button */
+        .btn-report {
+            background-color: var(--primary-teal);
+            border: none;
+            color: white;
+        }
+
+        .btn-report:hover {
+            background-color: var(--primary-teal-dark);
+            color: white;
+        }
+
+        /* Button icons */
+        .action-btn i {
+            font-size: 1.1rem;
+        }
 
         .btn-secondary {
             background-color: #334155;
@@ -275,6 +343,8 @@
             display: inline-block;
             margin: 0.25rem;
         }
+
+
 
         @media (max-width: 768px) {
             .hero-title {
