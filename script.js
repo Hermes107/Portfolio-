@@ -13,6 +13,8 @@ var projects = [
     impact: "Successfully created an educational resource that demystifies complex orthopedic procedures. The website serves as a valuable tool for patients newly diagnosed with hip dysplasia, those considering surgical options, and families seeking to understand treatment paths. Demonstrates ability to translate technical medical information into accessible, user-centered web content.",
     tags: ["Web Design", "Healthcare", "Information Architecture", "User Research", "Accessibility", "Medical Communication"]
 },
+    
+    
     {
         title: "Sumatran Tiger Conservation Campaign",
         category: "Social Media Design & Information Design",
@@ -89,6 +91,25 @@ var projects = [
     process: "Artistic Process:\n• Experimentation with various physical media (watercolor, ink, acrylic paint)\n• Urban landscape studies focusing on human/character drawing/painting\n• Character design and illustration development\n• Sketchbook practice and concept exploration\n• Color theory application in environmental scenes\n• Mixed media layering techniques\n• Portfolio curation and presentation\n\nTechniques Used:\n• Acrylic paint for its variety of colors and hues\n• Collage integration for texture and depth\n• Character illustration with expressive poses\n• Observational drawing from reference\n• Composition and perspective studies",
     impact: "Successfully created a diverse physical art portfolio demonstrating proficiency in multiple traditional media. The work showcases ability to capture environmental atmospheres, develop original characters, and work across different artistic styles. Portfolio demonstrates strong foundation in traditional art techniques that complement digital design work.",
     tags: ["Fine Art", "Mixed Media", "Watercolor", "Illustration", "Character Design", "Urban Sketching"]
+},
+    {
+    title: "MyAbility App - Figma Prototype",
+    category: "UX/UI Design & Mobile App Design",
+    academic: "",
+    figmaLink: "https://www.figma.com/design/p85L23fNiUVcFX0poRPuso/Low-Fidelity-Prototype--Copy-?m=auto&t=uDpYbmJ7HXpxxKKs-1", // CHANGE THIS to your Figma link
+    pdfReport: "documents/MyAbility_Report.pdf", // Your PDF report path
+    images: [
+        "images/uicomp.png",
+        "images/task1.png",
+        "images/task2.png",
+        "images/task3.png",
+        "images/task4.png"
+    ],
+    challenge: "Our task is to design an app or website that meets the needs of users, who, in our case, are college students with mobility disabilities. In order to best design a well-thought-out solution, we will need to research students with physical disabilities' frustrations, their values, and their current solutions. This research will help determine the information provided by the app, its design layout, and what features are necessary and appeal to our audience. ",
+    solution: "Created a comprehensive Figma prototype for MyAbility, a mobile app featuring accessibility ratings, venue reviews, community contributions, and personalized recommendations. The design prioritizes accessibility with high contrast options, screen reader compatibility, large touch targets, and clear navigation. Developed user flows for key features including venue search, accessibility ratings, community reviews, and personal profile customization.",
+    process: "UX/UI Design Process:\n• User research with individuals with various disabilities\n• Accessibility audit of existing similar applications\n• Persona development for diverse user needs\n• Information architecture and user flow mapping\n• Low-fidelity wireframing and iteration\n• High-fidelity mockups with accessibility considerations\n• Interactive prototype development in Figma\n• Usability testing with target users\n• Design system creation for scalability\n\nKey Features Designed:\n• Venue search with accessibility filters\n• Detailed accessibility ratings (wheelchair access, hearing assistance, visual aids)\n• Community-driven reviews and photos\n• Personal accessibility profile\n• Route planning with accessibility considerations\n• Crowdsourced accessibility updates",
+    impact: "Successfully designed a user-centered mobile app prototype that addresses real accessibility challenges. The Figma prototype demonstrates strong UX/UI design skills, accessibility awareness, and ability to create inclusive digital experiences. Project showcases research-driven design process, interactive prototyping capabilities, and commitment to designing for all users.",
+    tags: ["UX/UI Design", "Figma", "Mobile App", "Accessibility", "Prototyping", "User Research", "Inclusive Design"]
 }
 ];
 
@@ -124,7 +145,8 @@ function openModal(index) {
     document.getElementById('modal-title').textContent = project.title;
     
     var bodyHTML = '';
-    // Add live website link button if it exists
+    
+    // this will add a live website link 
     if (project.liveLink) {
         bodyHTML += '<div class="mb-4 text-center">';
         bodyHTML += '<a href="' + project.liveLink + '" target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-primary live-link-btn">';
@@ -132,7 +154,28 @@ function openModal(index) {
         bodyHTML += '</a>';
         bodyHTML += '</div>';
     }
-    // Add images if they exist
+    var hasButtons = project.liveLink || project.figmaLink || project.pdfReport || project.slidesLink;
+    
+    if (hasButtons) {
+        bodyHTML += '<div class="mb-4">';
+        bodyHTML += '<div class="d-flex flex-wrap gap-3 justify-content-center">';
+    }
+       
+        // Figma Prototype Link
+        if (project.figmaLink) {
+            bodyHTML += '<a href="' + project.figmaLink + '" target="_blank" rel="noopener noreferrer" class="btn btn-figma action-btn">';
+            bodyHTML += '<i class="bi bi-palette me-2"></i>View Figma Prototype';
+            bodyHTML += '</a>';
+        }
+        
+        // PDF Report Download
+        if (project.pdfReport) {
+            bodyHTML += '<a href="' + project.pdfReport + '" target="_blank" class="btn btn-report action-btn">';
+            bodyHTML += '<i class="bi bi-file-earmark-pdf me-2"></i>Download Report (PDF)';
+            bodyHTML += '</a>';
+        }
+    
+    // Add images when they 
     if (project.images && project.images.length > 0) {
         bodyHTML += '<div class="mb-4">';
         bodyHTML += '<div class="row g-3">';
