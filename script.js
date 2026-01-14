@@ -41,7 +41,6 @@ var projects = [
                     ],
         challenge: "Create memorable, engaging characters that make abstract communication concepts tangible for young learners.",
         solution: "Designed five animal mascots (bee, sloth, flower, owl, bunny) each representing a key conversation trait with playful puns and a cohesive pastel brick pattern background.",
-        process: "",
         impact: "Product design suitable for educational settings that combines visual appeal with clear, actionable messaging.",
         tags: ["Product Design", "Illustration", "Education", "Character Design"]
     },
@@ -228,3 +227,4 @@ document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
         }
     });
 });
+
