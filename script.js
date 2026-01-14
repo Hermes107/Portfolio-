@@ -96,7 +96,7 @@ var projects = [
     category: "UX/UI Design & Mobile App Design",
     academic: "",
     figmaLink: "https://www.figma.com/design/p85L23fNiUVcFX0poRPuso/Low-Fidelity-Prototype--Copy-?m=auto&t=uDpYbmJ7HXpxxKKs-1", // CHANGE THIS to your Figma link
-    pdfReport: "documents/MyAbility_Report.pdf", // Your PDF report path
+    pdfReport: "MyAbility_Report.pdf", // Your PDF report path
     images: [
         "uicomp.png",
         "task1.png",
@@ -227,6 +227,7 @@ document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
         }
     });
 });
+
 
 
 
