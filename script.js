@@ -7,11 +7,11 @@ var projects = [
     images: [
             "hipweb3.jpg"
         ],
-    challenge: "Create an accessible, informative website that explains complex orthopedic conditions and surgical procedures (Hip Dysplasia, PAO, and FO surgery) in a way that's understandable for patients, families, and those seeking information about treatment options.",
-    solution: "Designed a comprehensive healthcare information website with clear navigation, medical illustrations, and patient-centered content. The site features detailed explanations of hip dysplasia, Periacetabular Osteotomy (PAO), and Femoral Osteotomy (FO) procedures, recovery timelines, and helpful resources. Used accessible color schemes, readable typography, and organized information architecture to make complex medical information digestible.",
-    process: "Research & Design Process:\n• Medical research on hip dysplasia conditions and surgical treatments\n• Information architecture planning for complex medical content\n• User flow design for patients at different stages (diagnosis, pre-surgery, post-surgery)\n• Content organization with clear headings and sections\n• Visual design incorporating medical diagrams and patient-friendly explanations\n• Accessibility considerations for diverse audiences\n\nDesign Decisions:\n• Clean, professional layout appropriate for healthcare content\n• Clear typography hierarchy for easy scanning\n• Compassionate tone while maintaining medical accuracy\n• Mobile-responsive design for access on any device\n• Resource sections with external links and support information",
-    impact: "Successfully created an educational resource that demystifies complex orthopedic procedures. The website serves as a valuable tool for patients newly diagnosed with hip dysplasia, those considering surgical options, and families seeking to understand treatment paths. Demonstrates ability to translate technical medical information into accessible, user-centered web content.",
-    tags: ["Web Design", "Healthcare", "Information Architecture", "User Research", "Accessibility", "Medical Communication"]
+    challenge: "To create an informative website for young adults that explains Hip Dysplasia as a condition, treatment/surgery options and provide a variety of resources for patients and their families.",
+    solution: "An informative website designed with simple navigation, medical illustrations and focused on Hip Dysplasia in young adults. It features 4 sections which explain the condition, treatment options, and my personal experience with the process. Sections which focus on Hip Dysplasia as a condition, and the Periacetabular Osteotomy (PAO), and Femoral Osteotomy (FO) procedures, include detailed explanations, recovery timelines, and provide resources specific to the topic. The website also focuses on accessible color schemes, readable typography and is organized in a clean and simple format which helps make the complex medical terms more digestible.",
+    process: "Research & Design Process:\n•  Research conducted to find studies on hip dysplasia conditions and information about surgical treatments\n• Information architecture used to organize complex medical information\n• Focus on young adults as the user base and website design to inform patients and their families post diagnosis\n• Content organization with clear headings and block sections\n• Visual design incorporating medical illustrations and patient-friendly explanations\n• Accessibility features created for diverse audiences\n\nDesign Decisions:\n• Clean, professional layout appropriate for medical content\n• Clear typography hierarchy for easy scanning\n• Maintaining medical accuracy while also providing personal experience\n• Mobile-responsive design for access on any device\n• Resource sections with external links and additional information",
+    impact: "Successfully created an educational resource that focuses on hip dysplasia in young adults. The website serves as a tool for newly diagnosed patients, providing resources and information specific to their age range and condition. For those considering treatment, it details two major surgeries, including simplified illustrations and the web developers personal experience with both surgeries. It demonstrates the developer's ability to use HTML, CSS, and JavaScript to create an educational and informative website about Hip Dysplasia.",
+    tags: ["Web Design", "Healthcare", "Information Architecture", "User Research", "Accessibility", "Medical Resources"]
 },
     
     
@@ -227,6 +227,7 @@ document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
         }
     });
 });
+
 
 
 
